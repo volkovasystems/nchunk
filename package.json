@@ -1,0 +1,35 @@
+{
+  "name": "nchunk",
+  "version": "0.0.0",
+  "description": "Pre-configure CommonsChunkPlugin of Webpack based on name.",
+  "main": "nchunk.js",
+  "scripts": {
+    "test": "mocha nchunk-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/nchunk.git"
+  },
+  "keywords": [
+    "pre-configure",
+    "CommonsChunkPlugin",
+    "webpack",
+    "based",
+    "name",
+    "nchunk"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/nchunk/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/nchunk#readme",
+  "dependencies": {
+    "detr": "^0.1.0",
+    "leveld": "^0.7.0",
+    "plough": "^0.28.0",
+    "pyck": "^0.36.0",
+    "rgxv": "^0.0.0",
+    "webpack": "^3.2.0"
+  }
+}
