@@ -4,7 +4,9 @@
   "description": "Pre-configure CommonsChunkPlugin of Webpack based on name.",
   "main": "nchunk.js",
   "scripts": {
-    "test": "mocha nchunk-test.js"
+    "test": "mocha nchunk-test.js",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -30,6 +32,8 @@
     "plough": "^0.28.0",
     "pyck": "^0.36.0",
     "rgxv": "^0.0.0",
-    "webpack": "^3.2.0"
-  }
+    "webpack": "^3.2.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
